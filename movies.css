@@ -1,0 +1,93 @@
+body{
+  background-color: #291965 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.navbar-custom{
+  background-color: #1A1A1A;
+}
+img{
+  height: 90px;
+  width: 100px;
+}
+.navbar-toggler-icon{
+  background-color: white;
+}
+.nav-form{
+  background-color:#1A1A1A;
+}
+ul{
+  position: relative;
+  top: 40px;
+}
+@media only screen and (max-width: 991px) {
+  input{
+    display: none;
+  }
+  .small{
+    display: none
+  }
+}
+input{
+  position: relative;
+  left: 35%;
+  background-color: #1a1a1a;
+  border: 0;
+  color: white;
+  border-bottom: 2px solid white;
+}
+li{
+  font-size: 20px;
+  position: relative;
+}
+.small{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 34%;
+}
+.tit{
+ text-align: center;
+ color: white;
+}
+h1{
+  color: white;
+}
+.genre-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.horror{
+  padding: 10px;
+flex: 33.33%;
+}
+.genre{
+  display: flex;
+flex-direction: row;
+font-size: 30px;
+
+}
+.action{
+  padding: 10px;
+flex: 33.33%;
+}
+.thrill{
+  padding: 10px;
+flex: 33.33%;
+}
+.text{
+  position: relative;
+  left: 6%;
+}
+@media (max-width: 800px) {
+  .genre {
+    flex-direction: column;
+    text-align: center;
+  }
+  .text{
+   position: relative;
+   left: 0%;
+   margin-bottom: 60px;
+  }
+}
